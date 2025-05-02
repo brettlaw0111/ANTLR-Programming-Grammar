@@ -5,7 +5,7 @@ grammar State; //Grammar and file name must match
 
 program
     : stat+ EOF  //stat is a single statement. EOF is the end of file.
-
+    ;
 stat: ID '=' expr ';'   //This is how variables are assigned a value. It's the ID followed by an expression.
     | expr ';'          //This is a standalone expression. This allows for expressions that don't assign a value to a variable.
     | PRINT '(' expr ')' ';'
