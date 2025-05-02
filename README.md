@@ -51,9 +51,9 @@ y = -y;
 1. `x = 42 + (9*9);`: Assigns the value `123` to `x` (calculated as `42 + 81`).
 2. `y = x + 9;`: Assigns the value `132` to `y` (calculated as `123 + 9`).
 3. `print(y);`: Prints the value of `y`, which is `132`.
-4. `y = (y/20) + (x*20);`: Updates `y` to `2472.6` (calculated as `(132 / 20) + (123 * 20)`).
-5. `print(y == x);`: Prints `false` because `2472.6` is not equal to `123`.
-6. `y = -y;`: Negates the value of `y`, making it `-2472.6`.
+4. `y = (y/20) + (x*20);`: Updates `y` to `2466` (calculated as `(132 / 20) + (123 * 20)`).
+5. `print(y == x);`: Prints `false` because `2466` is not equal to `123`.
+6. `y = -y;`: Negates the value of `y`, making it `-2466`.
 
 This program demonstrates variable assignments, arithmetic operations, comparisons, and the use of negative integers.
 
